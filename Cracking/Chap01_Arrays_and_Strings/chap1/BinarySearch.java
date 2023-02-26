@@ -1,4 +1,4 @@
-package chap1;
+package Chap01_Arrays_and_Strings.chap1;
 
 public class BinarySearch {
 	public int binarysarch(int[] arr, int key) {

@@ -1,4 +1,4 @@
-package com.cracking.interview;
+package Chap01_Arrays_and_Strings.q01_01;
 
 public class StressTest0001_UniqueString {
 	public static String createRandomString (int maxStringLen) {

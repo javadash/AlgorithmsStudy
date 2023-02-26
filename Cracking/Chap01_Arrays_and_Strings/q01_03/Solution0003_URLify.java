@@ -1,4 +1,4 @@
-package com.cracking.interview;
+package Chap01_Arrays_and_Strings.q01_03;
 
 public class Solution0003_URLify {
 	public static String URLify(String aStr, int trueLength) {

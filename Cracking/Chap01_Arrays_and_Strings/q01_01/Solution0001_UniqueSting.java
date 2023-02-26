@@ -1,4 +1,4 @@
-package com.cracking.interview;
+package Chap01_Arrays_and_Strings.q01_01;
 import java.util.*;
 
 public class Solution0001_UniqueSting {

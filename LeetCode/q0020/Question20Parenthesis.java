@@ -1,4 +1,4 @@
-package com.algorithms;
+package q0020;
 
 import java.util.Deque;
 import java.util.*;

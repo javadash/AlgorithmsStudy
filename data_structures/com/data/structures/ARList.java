@@ -4,8 +4,6 @@ package com.data.structures;
 
 import java.util.Arrays;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
 /**
  * A dynamic array, growable array, resizable array, dynamic table, or array
  * list is a random access, variable-size list data structure that allows

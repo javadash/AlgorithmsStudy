@@ -1,4 +1,4 @@
-package chap1;
+package Chap01_Arrays_and_Strings.chap1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

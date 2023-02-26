@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="cracking"/>
 	<classpathentry kind="src" path="data_structures"/>
-	<classpathentry kind="src" path="algorithms"/>
+	<classpathentry kind="src" path="searching"/>
 	<classpathentry kind="src" path="sorting"/>
-	<classpathentry kind="src" path="leet_code"/>
+	<classpathentry kind="src" path="LeetCode"/>
+	<classpathentry kind="src" path="Cracking"/>
+	<classpathentry kind="src" path="Algo/Chap01. Arrays and Strings"/>
+	<classpathentry kind="src" path="Algo/Chap02. Linked Lists"/>
+	<classpathentry kind="src" path="Algo/Chap03. Stacks and Queues"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>

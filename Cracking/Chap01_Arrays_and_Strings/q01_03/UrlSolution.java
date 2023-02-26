@@ -1,4 +1,4 @@
-package chap1;
+package Chap01_Arrays_and_Strings.q01_03;
 
 public class UrlSolution {
 	public static String urlIfy (String aStr, int length) {
