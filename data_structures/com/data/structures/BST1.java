@@ -8,10 +8,7 @@ import java.util.Set;
 import java.util.Stack;
 
 /**
- * 
- * @author Johnson
- * @date 04/05/2019
- * @param <T>
+ * This class is incorrect
  */
 
 public class BST1 <T extends Comparable<T>> {

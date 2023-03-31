@@ -17,10 +17,10 @@ public class Q1bfs {
 	 * @return a boolan value
 	 */
 	public boolean hasRoute(ArrayList<DirectedGraphNode> graph, DirectedGraphNode s, DirectedGraphNode e) {
-		return bfs(s, e, new HashSet<DirectedGraphNode>());
+		return bfs(s, e);
 	}
 
-	private boolean bfs(DirectedGraphNode s, DirectedGraphNode e, HashSet<DirectedGraphNode> hashSet) {
+	private boolean bfs(DirectedGraphNode s, DirectedGraphNode e) {
 		if (s == e) {
 			return true;
 		}

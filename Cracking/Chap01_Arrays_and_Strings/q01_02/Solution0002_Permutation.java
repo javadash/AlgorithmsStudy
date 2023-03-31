@@ -1,4 +1,4 @@
-package com.cracking.interview;
+package Chap01_Arrays_and_Strings.q01_02;
 
 import java.util.Arrays;
 
