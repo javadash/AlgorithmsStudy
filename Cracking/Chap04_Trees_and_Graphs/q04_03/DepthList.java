@@ -38,6 +38,7 @@ public class DepthList {
             		add(curr.left);
             		add(curr.right);
             	}};
+            	List<TreeNode> childr2 = new ArrayList<>(Arrays.asList(curr.left, curr.right));
             	TreeNode[] childr = new TreeNode[]{
             		curr.left, 
             		curr.right
