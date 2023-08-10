@@ -20,11 +20,11 @@ public class MeetingRooms {
 		// Loop through available meeting rooms
 		
 		for(int[] mtg : meetings) {
-			int endTime = mtg[0];
+			int time = mtg[0];
 			
 			// check if any has ended or just ended update the meeting rooms with the new start time
-			while( meetingQueue.peek()[1] < endTime) {
-				meetingQueue.add(new long[] {meetingQueue.poll()[0], endTime});
+			while( meetingQueue.peek()[1] < time) {
+				meetingQueue.add(new long[] {meetingQueue.poll()[0], time});
 			}
 			
 			long[] currentRoom = meetingQueue.poll();

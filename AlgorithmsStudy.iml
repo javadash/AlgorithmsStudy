@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/searching" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SanjoyStudy" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
