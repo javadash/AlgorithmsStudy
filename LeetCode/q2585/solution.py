@@ -1,6 +1,7 @@
 import copy
 from typing import List
 
+
 class Solution:
     def waysToReachTarget(self, target: int, types: List[List[int]]) -> int:
         typCopy = sorted(types, key=lambda a: a[1])
