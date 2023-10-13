@@ -1,5 +1,7 @@
 package q1530;
 
+import TreeNode.TreeNode;
+
 public class q1530 {
     int count = 0;
     public int countPairs(TreeNode root, int distance) {

@@ -2,6 +2,8 @@ package q314;
 
 import java.util.*;
 
+import TreeNode.TreeNode;
+
 public class q314 {
     public Map<Integer, List<Integer>> resultMap = new TreeMap<>();
 
@@ -30,6 +32,15 @@ public class q314 {
     // We need to use breath first search
     // BFS uses queue
     // DFS uses recursion
+    
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (Map.Entry<Integer, List<Integer>> entry : resultMap.entrySet()) {
+            result.add(entry.getValue());
+        }
+        return result;
+    }
 
     public static void printNestedList(List<List<Integer>> nestedList) {
         System.out.print("[ ");
@@ -50,7 +61,6 @@ public class q314 {
     }
 
     public static void main(String[] args) {
-        New105 solution = new New105();
         // preorder [3,9,8,4,0,1,7]
         // inOrder = [4, 9, 0, 3, 1, 8, 7]
         int[] preOrder = new int[] {3,9,8,4,0,1,7};
