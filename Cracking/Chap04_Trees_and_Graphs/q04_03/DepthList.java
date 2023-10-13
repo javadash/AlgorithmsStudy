@@ -34,7 +34,7 @@ public class DepthList {
 				int nodeDepth = depth(curr);
 				System.out.printf("Current Node data = %d Depth = %d %n", curr.getData(), nodeDepth);
 				createDepthList(curr, nodeDepth, depthList);
-				List<TreeNode> children = new ArrayList<>(){{
+				List<TreeNode> children = new ArrayList(){{
             		add(curr.left);
             		add(curr.right);
             	}};
